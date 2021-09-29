@@ -579,7 +579,7 @@ var buttonId = allCoupons.map(a => a.id);
         document.querySelector('.home-coupons').innerHTML += `
         <div class="col-md-3">
         <div class="img-div">
-          <img src="images/aliexpress.webp" alt="store">
+          <img src="https://1.bp.blogspot.com/-3-pso4WWe74/YVQZfuZer5I/AAAAAAAAAI8/AGJDnx_OIUUUPZ0FvYkCu2Zon1fNdOLgwCLcBGAsYHQ/s320/aliexpress.webp" alt="store">
           <i class="fa fa-heart-o" aria-hidden="true"></i>
         </div>
         <div class="coupon-content">
@@ -614,7 +614,7 @@ for(let i=0; i<8; i++){
     document.querySelector('.home-deals').innerHTML += `
     <div class="col-md-3">
     <div class="img-div deal-img-div">
-        <img src="images/aliexpress.webp" alt="store">
+        <img src="https://1.bp.blogspot.com/-3-pso4WWe74/YVQZfuZer5I/AAAAAAAAAI8/AGJDnx_OIUUUPZ0FvYkCu2Zon1fNdOLgwCLcBGAsYHQ/s320/aliexpress.webp" alt="store">
         <i class="fa fa-heart-o" aria-hidden="true"></i>
     </div>
     <div class="coupon-content">
@@ -641,7 +641,7 @@ for(let i=0; i<buttonId.length; i++){
     document.getElementById(buttonId[i]).addEventListener('click', showModal);
     function showModal(){
       document.querySelector('.modal-body').innerHTML = `
-      <img src="images/aliexpress.webp" alt="store-logo">
+      <img src="https://1.bp.blogspot.com/-3-pso4WWe74/YVQZfuZer5I/AAAAAAAAAI8/AGJDnx_OIUUUPZ0FvYkCu2Zon1fNdOLgwCLcBGAsYHQ/s320/aliexpress.webp" alt="store-logo">
       <h6 class="mt-3 mb-3">${allCoupons[i].title}</h6>
       <div class="copy-code">
           <span class="modal-code" id="modalCode">${allCoupons[i].code}</span>
